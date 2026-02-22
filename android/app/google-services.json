@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "703830872746",
+    "project_id": "bitcoin-insights-f5480",
+    "storage_bucket": "bitcoin-insights-f5480.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703830872746:android:465cb09cf5e2e1369076d3",
+        "android_client_info": {
+          "package_name": "com.crypto.riskanalyzer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfKnR7-s40VyxsVk47ZAST41iPK583MJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
