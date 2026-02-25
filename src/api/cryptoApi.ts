@@ -34,12 +34,12 @@ export const cryptoApi = {
   },
 
   async getCoinDetails(coinId: string): Promise<any> {
-    const response = await apiClient.get<ApiResponse<any>>(`/api/coin/${coinId}`)
+    const response = await apiClient.get<ApiResponse<any>>(`/api/coins/${coinId}`)
     return response.data.data
   },
 
   async getHistoricalData(coinId: string, days: number = 7): Promise<any[]> {
-    const response = await apiClient.get<ApiResponse<any[]>>(`/api/historical/${coinId}`, {
+    const response = await apiClient.get<ApiResponse<any[]>>(`/api/coins/${coinId}/historical/`, {
       params: { days }
     })
     return response.data.data
